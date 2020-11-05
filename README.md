@@ -17,5 +17,6 @@ But you should look at it closely because sometimes although it's really similar
   * project
   * src
 * Lib folder outside the practices contains the glfw library so it must be **included and combined** within the lib folder in **every practice** (I've uploaded it this way not to upload the library twice). **stb_image.h**, **stb_truetype.h** and **litegfx.h** must be combined as well.
-* After compiling the code, you have to move the **OpenAL32.dll** inside the generated Debug or Release folder. 
+* The **openal** folder outside the practices has to be copied inside them as shown in the above structure.
+* After compiling the code, you have to move the **OpenAL32.dll** inside the generated Debug or Release folder.
 * To run the code, be sure to **compile it for x82**. Any other way it will fail.
